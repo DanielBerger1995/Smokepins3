@@ -8,9 +8,9 @@
   width: 100%;
   height: 100%;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 article.explanation {
@@ -25,11 +25,11 @@ article.explanation .placeholder {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 article.explanation .placeholder img {
@@ -103,12 +103,12 @@ article.explanation .article_text a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-#icon_container .icon_wrapper > div {
+#icon_container .icon_wrapper>div {
   width: 40%;
   height: 53%;
   display: -webkit-box;
@@ -116,43 +116,43 @@ article.explanation .article_text a:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 10%;
   background-color: #FFFCF5;
   border-radius: 30px;
   font-family: "Poppins", sans-serif;
 }
 
-#icon_container .icon_wrapper > div > div {
+#icon_container .icon_wrapper>div>div {
   width: 100%;
   height: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-#icon_container .icon_wrapper > div > div object {
+#icon_container .icon_wrapper>div>div object {
   width: 90%;
   height: 90%;
 }
 
-#icon_container .icon_wrapper > div h3 {
+#icon_container .icon_wrapper>div h3 {
   font-size: 4.5vw;
   color: #36454f;
   font-weight: 600;
 }
 
-#icon_container .icon_wrapper > div p {
+#icon_container .icon_wrapper>div p {
   padding-top: 10%;
   width: 80%;
   font-size: 12px;
@@ -222,7 +222,7 @@ article.explanation .article_text a:hover {
   display: flex;
   padding-top: 50px;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 #how_start .Steps:nth-of-type(4) {
@@ -237,11 +237,11 @@ article.explanation .article_text a:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #how_start .Steps .img_container {
@@ -251,8 +251,8 @@ article.explanation .article_text a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #how_start .Steps .img_container object {
@@ -309,8 +309,8 @@ article.explanation .article_text a:hover {
 
 #how_start .Steps.Steps:nth-of-type(3) .img_container {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 #how_start .line_box {
@@ -382,7 +382,7 @@ article.explanation .article_text a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: #FFF3D5;
 }
 
@@ -404,11 +404,11 @@ article.explanation .article_text a:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .discover_art .text_box h2 {
@@ -463,10 +463,12 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
   }
+
   article.explanation .placeholder {
     width: 50%;
     height: 100%;
   }
+
   article.explanation .article_text {
     width: 50%;
     height: 100%;
@@ -475,15 +477,17 @@ article.explanation .article_text a:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   article.explanation .article_text h2 {
     font-size: 3.5em;
   }
+
   article.explanation .article_text p {
     font-size: 1.1em;
     font-weight: 400;
@@ -492,6 +496,7 @@ article.explanation .article_text a:hover {
     padding-top: 5%;
     padding: 5%;
   }
+
   article.explanation .article_text a {
     height: 45px;
     width: 180px;
@@ -501,12 +506,15 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
+
   article.explanation .article_text a:hover {
     border: 1px solid #36454f;
   }
+
   #icon_container h2 {
     font-size: 3.5em;
   }
+
   #icon_container .icon_wrapper {
     width: 100%;
     height: 50%;
@@ -515,11 +523,12 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     padding: 0 10%;
   }
-  #icon_container .icon_wrapper > div {
+
+  #icon_container .icon_wrapper>div {
     width: 20%;
     height: 100%;
     margin-top: 7.5%;
@@ -529,29 +538,34 @@ article.explanation .article_text a:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #icon_container .icon_wrapper > div h3 {
+
+  #icon_container .icon_wrapper>div h3 {
     font-size: 1.6vw;
     font-weight: 600;
     color: #36454f;
     padding-top: 10%;
   }
-  #icon_container .icon_wrapper > div p {
+
+  #icon_container .icon_wrapper>div p {
     font-size: .9em;
     color: #36454f;
   }
+
   #how_start .How_to_start {
     height: 40vh;
   }
+
   #how_start .How_to_start h2 {
     font-size: 3.5em;
     margin-top: 5%;
   }
+
   #how_start .How_to_start p {
     font-size: 1.1em;
     font-weight: 400;
@@ -559,6 +573,7 @@ article.explanation .article_text a:hover {
     margin: 0 auto;
     padding-top: 3%;
   }
+
   #how_start .How_to_start a {
     height: 45px;
     width: 180px;
@@ -569,48 +584,59 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
+
   #how_start .How_to_start a:hover {
     border: 1px solid #36454f;
   }
+
   #how_start .Steps {
     padding-top: 0;
     height: 70vh;
   }
-  #how_start .Steps.Steps:nth-of-type(3), #how_start .Steps.Steps:nth-of-type(4) {
+
+  #how_start .Steps.Steps:nth-of-type(3),
+  #how_start .Steps.Steps:nth-of-type(4) {
     height: 120vh;
   }
+
   #how_start .Steps.Steps:nth-of-type(4) {
     height: 70vh;
   }
+
   #how_start .Steps .img_container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
+
   #how_start .Steps .img_container:nth-of-type(4) {
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
+
   #how_start .Steps .img_container object {
     width: 70%;
     margin-left: -5%;
   }
+
   #how_start .Steps .text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   #how_start .Steps h3 {
     font-size: 3em;
     margin-top: 5%;
   }
+
   #how_start .Steps p {
     font-size: 1.1em;
     font-weight: 400;
@@ -618,6 +644,7 @@ article.explanation .article_text a:hover {
     margin: 0 auto;
     padding: 5% 0;
   }
+
   #how_start .Steps a {
     height: 45px;
     width: 180px;
@@ -628,9 +655,11 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
+
   #how_start .Steps a:hover {
     border: 1px solid #36454f;
   }
+
   #how_start .line_box {
     position: absolute;
     top: 0;
@@ -641,50 +670,59 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
+
   #how_start .line_box svg {
     height: 75%;
   }
+
   #how_start #first {
     opacity: 1;
     top: 46vh;
     left: 39vw;
     height: 25vh;
   }
+
   #how_start #first svg {
     height: 80%;
     -webkit-transform: scaleX(1.15);
-            transform: scaleX(1.15);
+    transform: scaleX(1.15);
   }
+
   #how_start #secend {
     opacity: 1;
     top: 111vh;
     left: 50.5vw;
     height: 52vh;
   }
+
   #how_start #secend svg {
     height: 90%;
     -webkit-transform: scaleX(1.07);
-            transform: scaleX(1.07);
+    transform: scaleX(1.07);
   }
+
   #how_start #third {
     opacity: 1;
     top: 210vh;
     left: 50vw;
     height: 50vh;
   }
+
   #how_start #third svg {
     height: 80%;
     -webkit-transform: scaleX(1.1);
-            transform: scaleX(1.1);
+    transform: scaleX(1.1);
   }
+
   #how_start .line_box_mobile {
     display: none;
   }
+
   .newsletter input[type=text] {
     height: 45px;
     width: 380px;
@@ -695,6 +733,7 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
+
   .newsletter a {
     height: 45px;
     width: 180px;
@@ -705,9 +744,11 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
+
   .newsletter a:hover {
     border: 1px solid #36454f;
   }
+
   .newsletterimg {
     height: 300px;
     width: 300px;
@@ -717,13 +758,16 @@ article.explanation .article_text a:hover {
     left: 10%;
     display: block;
   }
+
   .newsletterimg object {
     width: 100%;
   }
+
   .slideheader h2 {
     font-size: 2.01em;
     font-weight: 500;
   }
+
   .discover_art {
     width: 100%;
     height: 80vh;
@@ -731,8 +775,9 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
+
   .discover_art .img_box {
     width: 50%;
     height: 80vh;
@@ -740,13 +785,15 @@ article.explanation .article_text a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .discover_art .img_box img {
     width: 80%;
     margin-top: 6%;
   }
+
   .discover_art .text_box {
     width: 50%;
     height: 80vh;
@@ -755,16 +802,18 @@ article.explanation .article_text a:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .discover_art .text_box h2 {
     font-size: 3.5em;
     margin-top: 15%;
   }
+
   .discover_art .text_box p {
     font-size: 1.1em;
     font-weight: 400;
@@ -772,6 +821,7 @@ article.explanation .article_text a:hover {
     margin: 0 auto;
     padding: 5% 0;
   }
+
   .discover_art .text_box a {
     height: 45px;
     width: 180px;
@@ -782,171 +832,180 @@ article.explanation .article_text a:hover {
     line-height: 45px;
     font-size: 1.1em;
   }
+
   .discover_art .text_box a:hover {
     border: 1px solid #36454f;
   }
-      #howto {
-          margin-top: 250px;
-        width: 100%;
-        text-align: center;
-        position: relative;
-        height: 3000px;
 
-    }
+  #howto {
+    margin-top: 250px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 3000px;
 
-    #howto h2 {
-        font-family: 'Active';
-        font-weight: 500;
-          font-size: 3.5em;
-        color: #36454F;
-    }
-    #howto h3 {
-        font-family: 'Active';
-        font-weight: 500;
-          font-size: 2.5em;
-        color: #36454F;
-    }
+  }
 
-     #howto .steptext {
-        width: 300px;
-    }
+  #howto h2 {
+    font-family: 'Active';
+    font-weight: 500;
+    font-size: 3.5em;
+    color: #36454F;
+  }
 
-    #howto p {
-                    font-size: 1.1em;
-        font-weight: 400;
-        font-family: 'Poppins';
-        color: #36454F;
-    }
+  #howto h3 {
+    font-family: 'Active';
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #36454F;
+  }
 
-    #howto a {
-          text-decoration: none;
-          background-color: #36454F;
-          margin: 0 auto;
-          margin-top: 40px;
-          color: #FFFCF5;
- transition: all .5s ease;
-          text-align: center;
-          text-transform: uppercase;
-          font-family: 'Poppins';
-        height: 45px;
+  #howto .steptext {
+    width: 300px;
+  }
+
+  #howto p {
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #36454F;
+  }
+
+  #howto a {
+    text-decoration: none;
+    background-color: #36454F;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #FFFCF5;
+    transition: all .5s ease;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    height: 45px;
     width: 180px;
     display: block;
-border-radius: 50px;
+    border-radius: 50px;
     line-height: 45px;
     font-size: 1.1em;
-    }
+  }
 
-     #howto a:hover {
-               background-color: $beidge;
-               color: $charcoal;
-          }
-
-
-
-    .step1 {
-        padding: 20px;
-       width: 1080px;
+  #howto a:hover {
+    background-color: $beidge;
+    color: $charcoal;
+  }
 
 
-        display: flex;
-        position: absolute;
-         top: 50%;
+
+  .step1 {
+    padding: 20px;
+    width: 1080px;
+
+
+    display: flex;
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-        bottom: -500px;
-    }
+    bottom: -500px;
+  }
 
-    .stepimg object {
-        width: 500px;
-        position: absolute;
-        top: -100px;
-    }
-    #firstline {
-        margin-top: 20px;
-        padding-right: 50px;
-  margin-right: 320px;
+  .stepimg object {
+    width: 500px;
+    position: absolute;
+    top: -100px;
+  }
 
-    }
-      .step1 object {
-        left: 400px;
-        width: 500px;
-          top: -50px;
-    }
+  #firstline {
+    margin-top: 20px;
+    padding-right: 50px;
+    margin-right: 320px;
 
-    #secondline {
-        position: absolute;
-         top: 50%;
+  }
+
+  .step1 object {
+    left: 400px;
+    width: 500px;
+    top: -50px;
+  }
+
+  #secondline {
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-        bottom: 160px;
-    }
+    bottom: 160px;
+  }
 
-    .step2 {
+  .step2 {
 
-         padding: 20px;
+    padding: 20px;
 
-       width: 1080px;
-        display: flex;
+    width: 1080px;
+    display: flex;
 
-        position: absolute;
-         top: 50%;
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-        bottom: 1180px;
-    }
+    bottom: 1180px;
+  }
 
-    .step2 .steptext {
-        position: absolute;
-        right: 40px;
+  .step2 .steptext {
+    position: absolute;
+    right: 40px;
 
-    }
+  }
 
-    .step2 object {
-        left: 320px;
-        top: -70px;
-        width: 400px;
-    }
+  .step2 object {
+    left: 320px;
+    top: -70px;
+    width: 400px;
+  }
 
-       #thirdline {
-        position: absolute;
-
-    left: 50%;
-    transform: translate(-50%, -50%);
-        bottom: 660px;
-    }
-     #firstline svg {
-        width: 380px;
-
-    }
-     #secondline svg {
-        width: 750px;
-
-    }
-    #thirdline svg {
-        width: 750px;
-
-    }
-
-     .step3 {
-        padding: 20px;
-       width: 1080px;
-
-
-        display: flex;
-        position: absolute;
+  #thirdline {
+    position: absolute;
 
     left: 50%;
     transform: translate(-50%, -50%);
-        bottom: 400px;
+    bottom: 660px;
+  }
 
-    }
+  #firstline svg {
+    width: 380px;
 
-    .step3 object {
-        position: absolute;
-        top: -50px;
-        margin-left: 100px;
-        width: 400px;
-    }
+  }
+
+  #secondline svg {
+    width: 750px;
+    transform: scaleX(1.07);
+
+  }
+
+  #thirdline svg {
+    width: 750px;
+
+  }
+
+  .step3 {
+    padding: 20px;
+    width: 1080px;
+
+
+    display: flex;
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 400px;
+
+  }
+
+  .step3 object {
+    position: absolute;
+    top: -50px;
+    margin-left: 100px;
+    width: 400px;
+  }
 
 }
 
@@ -956,17 +1015,21 @@ border-radius: 50px;
     display: -ms-flexbox;
     display: flex;
   }
+
   article.explanation .placeholder {
     width: 50%;
     height: 100%;
   }
+
   article.explanation .article_text {
     width: 50%;
     height: 100%;
   }
+
   article.explanation .article_text h2 {
     font-size: 3.5em;
   }
+
   article.explanation .article_text p {
     font-size: 1.1em;
     font-weight: 400;
@@ -974,6 +1037,7 @@ border-radius: 50px;
     margin: 0 auto;
     padding: 8% 0;
   }
+
   article.explanation .article_text a {
     height: 45px;
     width: 180px;
@@ -983,12 +1047,15 @@ border-radius: 50px;
     line-height: 45px;
     font-size: 1.1em;
   }
+
   article.explanation .article_text a:hover {
     border: 1px solid #36454f;
   }
+
   #icon_container h2 {
     font-size: 3.5em;
   }
+
   #icon_container .icon_wrapper {
     width: 100%;
     height: 100%;
@@ -997,12 +1064,13 @@ border-radius: 50px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
-  #icon_container .icon_wrapper > div {
+
+  #icon_container .icon_wrapper>div {
     width: 20%;
     height: 45%;
     margin-top: 7%;
@@ -1011,27 +1079,31 @@ border-radius: 50px;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding-top: 3%;
   }
-  #icon_container .icon_wrapper > div h3 {
+
+  #icon_container .icon_wrapper>div h3 {
     font-size: 1.8em;
     font-weight: 600;
     color: #36454f;
     padding-top: 10%;
   }
-  #icon_container .icon_wrapper > div p {
+
+  #icon_container .icon_wrapper>div p {
     font-size: .9em;
     color: #36454f;
   }
+
   #how_start .How_to_start h2 {
     font-size: 3.5em;
     margin-top: 5%;
   }
+
   #how_start .How_to_start p {
     font-size: 1.1em;
     font-weight: 400;
@@ -1039,6 +1111,7 @@ border-radius: 50px;
     margin: 0 auto;
     padding-top: 3%;
   }
+
   #how_start .How_to_start a {
     height: 45px;
     width: 180px;
@@ -1049,48 +1122,59 @@ border-radius: 50px;
     line-height: 45px;
     font-size: 1.1em;
   }
+
   #how_start .How_to_start a:hover {
     border: 1px solid #36454f;
   }
+
   #how_start .Steps {
     padding-top: 0;
     height: 70vh;
   }
-  #how_start .Steps.Steps:nth-of-type(3), #how_start .Steps.Steps:nth-of-type(4) {
+
+  #how_start .Steps.Steps:nth-of-type(3),
+  #how_start .Steps.Steps:nth-of-type(4) {
     height: 120vh;
   }
+
   #how_start .Steps.Steps:nth-of-type(4) {
     height: 60vh;
   }
+
   #how_start .Steps .img_container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
+
   #how_start .Steps .img_container object {
     width: 70%;
     margin-left: -5%;
   }
+
   #how_start .Steps.Steps:nth-of-type(3) .img_container {
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
+
   #how_start .Steps .text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   #how_start .Steps h3 {
     font-size: 2.5em;
     margin-top: 5%;
   }
+
   #how_start .Steps p {
     font-size: 1.1em;
     font-weight: 400;
@@ -1098,6 +1182,7 @@ border-radius: 50px;
     margin: 0 auto;
     padding: 5% 0;
   }
+
   #how_start .Steps a {
     height: 45px;
     width: 180px;
@@ -1108,9 +1193,11 @@ border-radius: 50px;
     line-height: 45px;
     font-size: 1.1em;
   }
+
   #how_start .Steps a:hover {
     border: 1px solid #36454f;
   }
+
   #how_start .line_box {
     position: absolute;
     top: 0;
@@ -1121,39 +1208,45 @@ border-radius: 50px;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
+
   #how_start #first {
     opacity: 1;
     top: 41.5vh;
     left: 38.5vw;
     height: 25vh;
   }
+
   #how_start #first svg {
     height: 100%;
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
+
   #how_start #secend {
     opacity: 1;
     top: 107vh;
     left: 51.5vw;
     height: 50vh;
   }
+
   #how_start #secend svg {
     height: 103%;
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
+
   #how_start #third {
     opacity: 1;
     top: 205vh;
     left: 49.3vw;
     height: 50vh;
   }
+
   .newsletter input[type=text] {
     height: 45px;
     width: 380px;
@@ -1164,6 +1257,7 @@ border-radius: 50px;
     line-height: 45px;
     font-size: 1.1em;
   }
+
   .newsletter a {
     height: 45px;
     width: 180px;
@@ -1174,6 +1268,7 @@ border-radius: 50px;
     line-height: 45px;
     font-size: 1.1em;
   }
+
   .newsletterimg {
     height: 300px;
     width: 300px;
@@ -1183,9 +1278,11 @@ border-radius: 50px;
     left: 10%;
     display: block;
   }
+
   .newsletterimg object {
     width: 100%;
   }
+
   .discover_art {
     width: 100%;
     height: 80vh;
@@ -1193,20 +1290,24 @@ border-radius: 50px;
     display: -ms-flexbox;
     display: flex;
   }
+
   .discover_art .img_box {
     width: 50%;
     height: 80vh;
   }
+
   .discover_art .text_box h2 {
     font-size: 3.5em;
     margin-top: 15%;
   }
+
   .discover_art .text_box p {
     font-size: 1.1em;
     width: 45%;
     margin: 0 auto;
     padding: 8% 0;
   }
+
   .discover_art .text_box a {
     height: 45px;
     width: 180px;
@@ -1217,8 +1318,10 @@ border-radius: 50px;
     line-height: 45px;
     font-size: 1.1em;
   }
+
   .discover_art .text_box a:hover {
     border: 1px solid #36454f;
   }
 }
+
 /*# sourceMappingURL=frontpage.css.map */
