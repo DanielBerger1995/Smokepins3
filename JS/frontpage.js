@@ -102,9 +102,9 @@ window.addEventListener('scroll', function () {
           line_1.style.strokeDashoffset = pathLength_1;
           window.addEventListener("scroll", function (e) {
                const container_1 = document.querySelector('#firstline');
-               var scrollPercentage_1_2 = (document.documentElement.scrollTop + 320) / -(container_1.scrollHeight - document.documentElement.clientHeight) + 300;
-               var drawLength_1_2 = pathLength_1 * scrollPercentage_1_2 * 1.0002;
-               line_1.style.strokeDashoffset = pathLength_1 + drawLength_1_2;
+               var scrollPercentage_1_2 = (document.documentElement.scrollTop - 480) / -(container_1.scrollHeight - document.documentElement.clientHeight) + 200;
+               var drawLength_1_2 = pathLength_1 * scrollPercentage_1_2;
+               line_1.style.strokeDashoffset = pathLength_1 + drawLength_1_2 / 1.3;
 
           });
           console.log('In viewport');
@@ -133,10 +133,10 @@ window.addEventListener('scroll', function () {
           line_2.style.strokeDashoffset = pathLength_2;
           window.addEventListener("scroll", function (e) {
                const container_2 = document.querySelector('#secondline');
-               var scrollPercentage_2_2 = (document.documentElement.scrollTop + 420) / 1.969 /
-                    (container_2.scrollHeight - document.documentElement.clientHeight) + 300;
+               var scrollPercentage_2_2 = (document.documentElement.scrollTop - 460) /
+                    - (container_2.scrollHeight - document.documentElement.clientHeight) + 300;
                var drawLength_2_2 = pathLength_2 * scrollPercentage_2_2;
-               line_2.style.strokeDashoffset = pathLength_2 + drawLength_2_2;
+               line_2.style.strokeDashoffset = pathLength_2 + drawLength_2_2 / 1.3;
                //The function that makes the drawing, function is counting the scroll position,
                // distance and height and dinamicly changing the lenght and ofset of the svg
 
@@ -164,7 +164,7 @@ window.addEventListener('scroll', function () {
                const container_3 = document.querySelector('#third');
                var scrollPercentage_3_3 = (document.documentElement.scrollTop + 320) / -(container_3.scrollHeight - document.documentElement.clientHeight);
                var drawLength_3_3 = pathLength_3 * scrollPercentage_3_3;
-               line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3_3) / 1.5;
+               line_3.style.strokeDashoffset = (pathLength_3 + drawLength_3_3) / 2;
 
           });
           console.log('In viewport');
